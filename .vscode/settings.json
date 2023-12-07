@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/metallb.io/v1beta1%40l2advertisement": "file:///c%3A/Users/max.andriani/Projetos/raspikube/metallb/metallb-configuration.yaml"
+    }
+}

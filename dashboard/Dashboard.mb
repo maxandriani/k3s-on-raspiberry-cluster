@@ -1,0 +1,10 @@
+# Dashboard
+
+https://github.com/kubernetes/dashboard
+
+``` sh
+helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
+helm repo update
+
+helm install dashboard kubernetes-dashboard/kubernetes-dashboard -n dashboard --create-namespace --values ./dashboard/values.yaml
+```
